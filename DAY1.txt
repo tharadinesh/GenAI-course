@@ -1,0 +1,4 @@
+DAY1  
+two different encoding methods?
+Label Encoding is suitable for binary categories like Sex (male/female).
+One-Hot Encoding is preferred for nominal categories like Embarked because the categories (C, Q, S) have no natural order. Assigning them numbers such as 0, 1, and 2 could incorrectly imply an ordering, whereas one-hot encoding avoids this issue.
